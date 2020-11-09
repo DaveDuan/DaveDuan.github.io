@@ -25,14 +25,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://daveduan.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://DaveDuan.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  DaveDuan
 
 
 # Build settings
 repository: DaveDuan/DaveDuan.github.io
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "air"
 breadcrumbs: true
 permalink: /:categories/:title/
@@ -67,6 +68,7 @@ author:
       
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 include: ["_pages"]
 # Exclude from processing.
