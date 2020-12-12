@@ -1,4 +1,4 @@
-var paperjsDemo = function () {
+paperjsDemo = function () {
     var inputBoxWidth = 100, inputBoxHeight = 40, padding = 4, fontSize = 16, minWidth = 20, CollapseReduis = 5;
     var horiDistance = 100, vertDistance = 16;
     var lineColor = new Color('rgb(55, 182, 189)');
